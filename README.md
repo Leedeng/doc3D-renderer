@@ -15,8 +15,8 @@ The download scripts of the dataset is available in [doc3D-dataset](https://gith
 If you want to modify text images, PLEASE DO NOT DELETE "tex/1.jpg".
 - Step 3 : Render images:
         - `cd ..`
-	- `blender --background --python render_meshGT.py -- 10 1 10`
-1,10 refer to startID and EndID. Total of (10-1) images will be generated
+	- `blender --background --python render_meshGT.py -- 10 1 20`
+1,20 refer to startID and EndID. Total of (20-1=19) images will be generated
 - Step 5 : Render GT images:
 	- `python groudntruthgen.py`
 gt1,gt2 and ground images folders(but there are different!). img(normal),img_s(stamp&stain),img_b(blur) are source images folders.	
