@@ -1,12 +1,10 @@
 '''
 Code for rendering the groundtruths of Doc3D dataset 
 https://www3.cs.stonybrook.edu/~cvl/projects/dewarpnet/storage/paper.pdf (ICCV 2019)
-
 This code renders the gts needed for the DewarpNet training (image, uv, 3D coordinates) 
 and saves the .blend files. The .blend files can be later used 
 to render other gts (normal, depth, checkerboard, albedo). 
 Each .blend file takes ~2.5MB set the save_blend_file flag to False if you don't need.
-
 Written by: Sagnik Das and Ke Ma
 Stony Brook University, New York
 December 2018
@@ -99,8 +97,8 @@ def prepare_scene():
 def prepare_rendersettings():
     bpy.ops.object.select_all(action='DESELECT')
     bpy.data.scenes['Scene'].cycles.device='CPU'
-    bpy.data.scenes['Scene'].render.resolution_x=448
-    bpy.data.scenes['Scene'].render.resolution_y=448
+    bpy.data.scenes['Scene'].render.resolution_x=1024
+    bpy.data.scenes['Scene'].render.resolution_y=1024
     bpy.data.scenes['Scene'].render.resolution_percentage=100
 
 def position_object(mesh_name):
@@ -449,9 +447,9 @@ for fd in [path_to_output_images, path_to_output_uv, path_to_output_wc, path_to_
     if not os.path.exists(fd):
         os.makedirs(fd)
 
-env_list = './envs.csv'
+env_list = 'objenvs/envs.csv'
 tex_list = './tex.csv'
-obj_list = './objs.csv'
+obj_list = 'objenvs/objs.csv'
 
 envlist = []
 with open(env_list, 'r') as f:
@@ -470,5 +468,3 @@ with open(tex_list, 'r') as t, open(obj_list, 'r') as m:
         print(texpath)
 
         render_img(objpath, texpath)
-
-
