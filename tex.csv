@@ -1,4 +1,4 @@
-./tex/1.jpg,,
+./source/1.jpg,,
 ./tex/2.png,./tex_b/2.png,./tex_s/2.png
 ./tex/3.png,./tex_b/3.png,./tex_s/3.png
 ./tex/4.png,./tex_b/4.png,./tex_s/4.png
@@ -53,3 +53,6 @@
 ./tex/53.png,./tex_b/53.png,./tex_s/53.png
 ./tex/54.png,./tex_b/54.png,./tex_s/54.png
 ./tex/55.png,./tex_b/55.png,./tex_s/55.png
+./tex/56.png,./tex_b/56.png,./tex_s/56.png
+./tex/57.png,./tex_b/57.png,./tex_s/57.png
+./tex/58.png,./tex_b/58.png,./tex_s/58.png

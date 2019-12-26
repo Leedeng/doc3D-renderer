@@ -121,19 +121,21 @@ def add_lighting():
         else:
             wnodes.remove(node)
     # hdr world lighting
-    if random.random() > 0.3:
-        texcoord = wnodes.new(type='ShaderNodeTexCoord')
-        mapping = wnodes.new(type='ShaderNodeMapping')
-        mapping.rotation[2] = random.uniform(0, 6.28)
-        wlinks.new(texcoord.outputs[0], mapping.inputs[0])
-        envnode=wnodes.new(type='ShaderNodeTexEnvironment')
-        wlinks.new(mapping.outputs[0], envnode.inputs[0])
-        idx = random.randint(0, 15)
-        envp = envlist[idx]
-        envnode.image = bpy.data.images.load(envp[0])
-        envstr = int(envp[1])
-        bg_node.inputs[1].default_value=random.uniform(0.4 * envstr, 0.6 * envstr)
-        wlinks.new(envnode.outputs[0], bg_node.inputs[0])
+    #if random.random() > 0.3:
+    texcoord = wnodes.new(type='ShaderNodeTexCoord')
+    mapping = wnodes.new(type='ShaderNodeMapping')
+    mapping.rotation[2] = random.uniform(0, 6.28)
+    wlinks.new(texcoord.outputs[0], mapping.inputs[0])
+    envnode=wnodes.new(type='ShaderNodeTexEnvironment')
+    wlinks.new(mapping.outputs[0], envnode.inputs[0])
+    idx = random.randint(0, 15)
+    envp = envlist[idx]
+    envnode.image = bpy.data.images.load(envp[0])
+    envstr = int(envp[1])
+    print("thishidhsadihsaidhasidhasidhasidhasd",envstr)
+    bg_node.inputs[1].default_value=random.uniform(0.4 * envstr, 0.6 * envstr)
+    wlinks.new(envnode.outputs[0], bg_node.inputs[0])
+'''
     else:
         # point light
         bg_node.inputs[1].default_value=0
@@ -162,7 +164,7 @@ def add_lighting():
         color_temp=random.uniform(2700,10200)
         bbody.inputs[0].default_value=color_temp
         links.new(bbody.outputs[0],lamp_node.inputs[0])
-
+'''
     ## Area Lighting 
     # bpy.ops.object.lamp_add(type='AREA')
     # lamp=bpy.data.objects[bpy.data.lamps[0].name]
@@ -560,6 +562,8 @@ rridx = int(sys.argv[-3])
 path_to_output_images='./img/{}/'.format(rridx)
 path_to_output_images_s='./img_s/{}/'.format(rridx)
 path_to_output_images_b='./img_b/{}/'.format(rridx)
+path_to_output_images_lowill='./img_li/{}/'.format(rridx)
+path_to_output_images_highill='./img_hi/{}/'.format(rridx)
 path_to_output_gt='./gt/{}/'.format(rridx)
 path_to_output_label='./label/{}/'.format(rridx)
 path_to_output_uv = './uv/{}/'.format(rridx)
@@ -567,7 +571,8 @@ path_to_output_wc = './wc/{}/'.format(rridx)
 if save_blend_file:
     path_to_output_blends='./bld/{}/'.format(rridx)
 
-for fd in [path_to_output_images, path_to_output_uv, path_to_output_wc, path_to_output_blends,path_to_output_gt,path_to_output_label,path_to_output_images_s,path_to_output_images_b]:
+for fd in [path_to_output_images, path_to_output_uv, path_to_output_wc, path_to_output_blends,path_to_output_gt,path_to_output_label,path_to_output_images_s,path_to_output_images_b,
+path_to_output_images_lowill,path_to_output_images_highill]:
     if not os.path.exists(fd):
         os.makedirs(fd)
 
@@ -586,8 +591,8 @@ with open(tex_list, 'r') as t, open(obj_list, 'r') as m:
     for k in range(id1, id2):
         #print(k)
         objid = random.randint(0, 15)
-        objpath = objlist[objid][0]
-        idx = random.randint(1, len(texlist))
+        objpath = objlist[1][0]
+        idx = random.randint(1, len(texlist)-1)
         texpath=texlist[idx][0]
         print(objpath)
         print(texpath)
@@ -608,6 +613,19 @@ with open(tex_list, 'r') as t, open(obj_list, 'r') as m:
         if not v:
             print(1)
         else:
+
+            
+            v = reset_camera(mesh)
+            world=bpy.data.worlds['World']
+            world.use_nodes = True
+            wnodes=world.node_tree.nodes
+            wlinks=world.node_tree.links
+            bg_node=wnodes['Background']
+            bg_node.inputs[1].default_value = 0.05
+            render_img_aug(objpath, texpath,fn,path_to_output_images_lowill)
+            bg_node.inputs[1].default_value = 0.9
+            render_img_aug(objpath, texpath,fn,path_to_output_images_highill)
+            bg_node.inputs[1].default_value=random.uniform(0.05 , 0.6 )
             render_img_aug(objpath, texpath_b,fn,path_to_output_images_b)
             render_img_aug(objpath, texpath_s,fn,path_to_output_images_s)
             render_img(objpath, texpath,fn)
