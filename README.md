@@ -1,9 +1,9 @@
 ### Instructions to render your own data:
 - Step 1: Run script.sh
-'''python
+```python
 blender --background --python render_meshGT.py -- 10 0 0 0
 python groudntruthgen.py
-'''
+```
 
 ### Citation:
 If you use the dataset or this code, please consider citing our work-
