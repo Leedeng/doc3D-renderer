@@ -128,8 +128,8 @@ def add_lighting():
     wlinks.new(texcoord.outputs[0], mapping.inputs[0])
     envnode=wnodes.new(type='ShaderNodeTexEnvironment')
     wlinks.new(mapping.outputs[0], envnode.inputs[0])
-    idx = random.randint(0, 15)
-    envp = envlist[idx]
+    #idx = random.randint(0, 15)
+    envp = envlist[id3]
     envnode.image = bpy.data.images.load(envp[0])
     envstr = int(envp[1])
     print("thishidhsadihsaidhasidhasidhasidhasd",envstr)
@@ -509,10 +509,9 @@ def render_pass_gt(obj, objpath, texpath,fname):
     bpy.ops.render.render(write_still=False)
 
     return fn
-def render_pass_aug(obj, objpath, texpath,fname,save):
+def render_pass_aug(obj, objpath, texpath,fname):
     # change output image name to obj file name + texture name + random three
     # characters (upper lower alphabet and digits)
-    save = save
     fn = fname
     scene=bpy.data.scenes['Scene']
     scene.render.layers['RenderLayer'].use_pass_uv=True
@@ -525,7 +524,7 @@ def render_pass_aug(obj, objpath, texpath,fname,save):
     render_layers = tree.nodes.new('CompositorNodeRLayers')
     file_output_node_gt = tree.nodes.new('CompositorNodeOutputFile')
     file_output_node_gt.format.file_format = 'PNG'
-    file_output_node_gt.base_path = save
+    file_output_node_gt.base_path = path_to_output_images
     file_output_node_gt.file_slots[0].path = fn
     gtlk = links.new(render_layers.outputs[0], file_output_node_gt.inputs[0])
     scene.cycles.samples=256
@@ -542,12 +541,11 @@ def render_img(objpath, texpath,fname):
     fname = fname
     fn = render_pass(mesh, objpath, texpath,fname)
 
-def render_img_aug(objpath, texpath,fname,save):
+def render_img_aug(objpath, texpath,fname):
    #add texture
     page_texturing(mesh, texpath)
     fname = fname
-    save = save 
-    fn = render_pass_aug(mesh, objpath, texpath,fname,save)
+    fn = render_pass_aug(mesh, objpath, texpath,fname)
 
 def render_img_gt(objpath, texpath,fname):
         #add texture
@@ -555,15 +553,12 @@ def render_img_gt(objpath, texpath,fname):
     fname = fname
     fn = render_pass_gt(mesh, objpath, texpath,fname)
 
-id1 = int(sys.argv[-2])
-id2 = int(sys.argv[-1])
-rridx = int(sys.argv[-3])
+id1 = int(sys.argv[-3])
+id2 = int(sys.argv[-2])
+id3 = int(sys.argv[-1])
+rridx = int(sys.argv[-4])
 
-path_to_output_images='./img/{}/'.format(rridx)
-path_to_output_images_s='./img_s/{}/'.format(rridx)
-path_to_output_images_b='./img_b/{}/'.format(rridx)
-path_to_output_images_lowill='./img_li/{}/'.format(rridx)
-path_to_output_images_highill='./img_hi/{}/'.format(rridx)
+path_to_output_images='./source_img/{}/'.format(rridx)
 path_to_output_gt='./gt/{}/'.format(rridx)
 path_to_output_label='./label/{}/'.format(rridx)
 path_to_output_uv = './uv/{}/'.format(rridx)
@@ -571,8 +566,7 @@ path_to_output_wc = './wc/{}/'.format(rridx)
 if save_blend_file:
     path_to_output_blends='./bld/{}/'.format(rridx)
 
-for fd in [path_to_output_images, path_to_output_uv, path_to_output_wc, path_to_output_blends,path_to_output_gt,path_to_output_label,path_to_output_images_s,path_to_output_images_b,
-path_to_output_images_lowill,path_to_output_images_highill]:
+for fd in [path_to_output_images, path_to_output_uv, path_to_output_wc, path_to_output_blends]:
     if not os.path.exists(fd):
         os.makedirs(fd)
 
@@ -588,47 +582,51 @@ with open(tex_list, 'r') as t, open(obj_list, 'r') as m:
     texlist = list(csv.reader(t))
     objlist = list(csv.reader(m))
     #print(objlist)
-    for k in range(id1, id2):
+    #for k in range(id1, id2):
         #print(k)
-        objid = random.randint(0, 15)
-        objpath = objlist[1][0]
-        idx = random.randint(1, len(texlist)-1)
-        texpath=texlist[idx][0]
-        print(objpath)
-        print(texpath)
-        texpath_gt=texlist[0][0]
-        texpath_b=texlist[idx][1]
-        texpath_s=texlist[idx][2]
+    #objid = random.randint(0, 15)
+    objpath = objlist[id1][0]
+    #idx = random.randint(1, len(texlist)-1)
+    texpath=texlist[id2][0]
+    print(objpath)
+    print(texpath)
+    texpath_gt=texlist[0][0]
+    texpath_b=texlist[id2][1]
+    texpath_s=texlist[id2][2]
+    
+    fn = objpath.split('/')[-1][:-4] + "-" + texpath.split('/')[-1][:-4] + "-" + envlist[id3][0].split('/')[-1][:-4] + "b{}s{}l{}h{}-"
 
-        fn = objpath.split('/')[-1][:-4] + '-' + texpath.split('/')[-1][:-4] + '-' + \
-        ''.join(random.sample(string.ascii_letters + string.digits, 3))
-
-        prepare_scene()
-        prepare_rendersettings()
-        bpy.ops.import_scene.obj(filepath=objpath)
-        mesh_name=bpy.data.meshes[0].name
-        mesh=position_object(mesh_name)
-        add_lighting()
-        v = reset_camera(mesh)
-        if not v:
-            print(1)
-        else:
+    prepare_scene()
+    prepare_rendersettings()
+    bpy.ops.import_scene.obj(filepath=objpath)
+    mesh_name=bpy.data.meshes[0].name
+    mesh=position_object(mesh_name)
+    add_lighting()
+    v = reset_camera(mesh)
+    if not v:
+        print(1)
+    else:
 
             
-            v = reset_camera(mesh)
-            world=bpy.data.worlds['World']
-            world.use_nodes = True
-            wnodes=world.node_tree.nodes
-            wlinks=world.node_tree.links
-            bg_node=wnodes['Background']
-            bg_node.inputs[1].default_value = 0.05
-            render_img_aug(objpath, texpath,fn,path_to_output_images_lowill)
-            bg_node.inputs[1].default_value = 0.9
-            render_img_aug(objpath, texpath,fn,path_to_output_images_highill)
-            bg_node.inputs[1].default_value=random.uniform(0.05 , 0.6 )
-            render_img_aug(objpath, texpath_b,fn,path_to_output_images_b)
-            render_img_aug(objpath, texpath_s,fn,path_to_output_images_s)
-            render_img(objpath, texpath,fn)
-            render_img_gt(objpath, texpath_gt,fn)
+        v = reset_camera(mesh)
+        world=bpy.data.worlds['World']
+        world.use_nodes = True
+        wnodes=world.node_tree.nodes
+        wlinks=world.node_tree.links
+        bg_node=wnodes['Background']
+        bg_node.inputs[1].default_value = 0.05
+        fnl = fn.format("0","0","1","0")
+        render_img_aug(objpath, texpath,fnl)
+        bg_node.inputs[1].default_value = 0.9
+        fnh = fn.format("0","0","0","1")
+        render_img_aug(objpath, texpath,fnh)
+        bg_node.inputs[1].default_value=random.uniform(0.05 , 0.6 )
+        fnb = fn.format("1","0","0","0")
+        render_img_aug(objpath, texpath_b,fnb)
+        fns = fn.format("0","1","0","0")
+        render_img_aug(objpath, texpath_s,fns)
+        fn = fn.format("0","0","0","0")
+        render_img(objpath, texpath,fn)
+        render_img_gt(objpath, texpath_gt,fn)
            
        
