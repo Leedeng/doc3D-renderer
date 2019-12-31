@@ -1,611 +1,3 @@
-blender --background --python render_meshGT.py -- 10 0 0 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 0 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 1 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 2 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 3 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 4 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 5 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 6 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 7 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 8 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 9 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 10 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 11 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 12 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 13 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 14 18
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 0
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 1
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 2
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 3
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 4
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 5
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 6
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 7
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 8
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 9
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 10
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 11
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 12
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 13
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 14
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 15
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 16
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 17
-python groudntruthgen.py
-blender --background --python render_meshGT.py -- 10 0 15 18
-python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 1 0 0
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 1 0 1
@@ -2324,7 +1716,6 @@ blender --background --python render_meshGT.py -- 10 3 13 2
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 3 13 3
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 3 13 4
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 3 13 5
@@ -3092,6 +2483,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 5 1 6
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 5 1 7
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 5 1 8
 python groudntruthgen.py
@@ -4325,7 +3717,6 @@ blender --background --python render_meshGT.py -- 10 7 1 14
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 7 1 15
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 7 1 16
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 7 1 17
@@ -5093,6 +4484,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 8 5 18
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 8 6 0
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 8 6 1
 python groudntruthgen.py
@@ -6325,7 +5717,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 10 6 7
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 10 6 8
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 10 6 9
 python groudntruthgen.py
@@ -7093,6 +6484,7 @@ blender --background --python render_meshGT.py -- 10 11 10 10
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 11 10 11
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 11 10 12
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 11 10 13
@@ -8326,7 +7718,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 13 11 0
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 13 11 1
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 13 11 2
 python groudntruthgen.py
@@ -9094,6 +8485,7 @@ blender --background --python render_meshGT.py -- 10 14 15 3
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 14 15 4
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 14 15 5
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 14 15 6
@@ -10326,7 +9718,6 @@ blender --background --python render_meshGT.py -- 10 16 15 11
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 16 15 12
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 16 15 13
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 16 15 14
@@ -11094,6 +10485,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 18 3 15
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 18 3 16
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 18 3 17
 python groudntruthgen.py
@@ -12327,7 +11719,6 @@ blender --background --python render_meshGT.py -- 10 20 4 4
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 20 4 5
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 20 4 6
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 20 4 7
@@ -13095,6 +12486,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 21 8 8
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 21 8 9
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 21 8 10
 python groudntruthgen.py
@@ -14327,7 +13719,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 23 8 16
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 23 8 17
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 23 8 18
 python groudntruthgen.py
@@ -15095,6 +14486,7 @@ blender --background --python render_meshGT.py -- 10 24 13 0
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 24 13 1
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 24 13 2
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 24 13 3
@@ -16328,7 +15720,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 26 13 9
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 26 13 10
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 26 13 11
 python groudntruthgen.py
@@ -17096,6 +16487,7 @@ blender --background --python render_meshGT.py -- 10 28 1 12
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 28 1 13
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 28 1 14
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 28 1 15
@@ -18328,7 +17720,6 @@ blender --background --python render_meshGT.py -- 10 30 2 1
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 30 2 2
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 30 2 3
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 30 2 4
@@ -19096,6 +18487,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 31 6 5
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 31 6 6
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 31 6 7
 python groudntruthgen.py
@@ -20329,7 +19721,6 @@ blender --background --python render_meshGT.py -- 10 33 6 13
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 33 6 14
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 33 6 15
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 33 6 16
@@ -21097,6 +20488,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 34 10 17
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 34 10 18
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 34 11 0
 python groudntruthgen.py
@@ -22329,7 +21721,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 36 11 6
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 36 11 7
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 36 11 8
 python groudntruthgen.py
@@ -23097,6 +22488,7 @@ blender --background --python render_meshGT.py -- 10 37 15 9
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 37 15 10
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 37 15 11
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 37 15 12
@@ -24330,7 +23722,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 39 15 18
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 40 0 0
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 40 0 1
 python groudntruthgen.py
@@ -25098,6 +24489,7 @@ blender --background --python render_meshGT.py -- 10 41 4 2
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 41 4 3
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 41 4 4
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 41 4 5
@@ -26330,7 +25722,6 @@ blender --background --python render_meshGT.py -- 10 43 4 10
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 43 4 11
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 43 4 12
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 43 4 13
@@ -27098,6 +26489,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 44 8 14
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 44 8 15
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 44 8 16
 python groudntruthgen.py
@@ -28331,7 +27723,6 @@ blender --background --python render_meshGT.py -- 10 46 9 3
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 46 9 4
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 46 9 5
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 46 9 6
@@ -29099,6 +28490,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 47 13 7
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 47 13 8
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 47 13 9
 python groudntruthgen.py
@@ -30331,7 +29723,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 49 13 15
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 49 13 16
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 49 13 17
 python groudntruthgen.py
@@ -31099,6 +30490,7 @@ blender --background --python render_meshGT.py -- 10 51 1 18
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 51 2 0
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 51 2 1
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 51 2 2
@@ -32332,7 +31724,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 53 2 8
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 53 2 9
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 53 2 10
 python groudntruthgen.py
@@ -33100,6 +32491,7 @@ blender --background --python render_meshGT.py -- 10 54 6 11
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 54 6 12
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 54 6 13
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 54 6 14
@@ -34332,7 +33724,6 @@ blender --background --python render_meshGT.py -- 10 56 7 0
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 56 7 1
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 56 7 2
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 56 7 3
@@ -35100,6 +34491,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 57 11 4
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 57 11 5
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 57 11 6
 python groudntruthgen.py
@@ -36333,7 +35725,6 @@ blender --background --python render_meshGT.py -- 10 59 11 12
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 59 11 13
 python groudntruthgen.py
-
 blender --background --python render_meshGT.py -- 10 59 11 14
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 59 11 15
@@ -37101,6 +36492,7 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 60 15 16
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 60 15 17
+
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 60 15 18
 python groudntruthgen.py
@@ -38333,7 +37725,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 63 0 5
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 63 0 6
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 63 0 7
 python groudntruthgen.py
@@ -39101,6 +38492,7 @@ blender --background --python render_meshGT.py -- 10 64 4 8
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 64 4 9
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 64 4 10
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 64 4 11
@@ -40334,7 +39726,6 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 66 4 17
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 66 4 18
-
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 66 5 0
 python groudntruthgen.py
@@ -41102,6 +40493,7 @@ blender --background --python render_meshGT.py -- 10 67 9 1
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 67 9 2
 python groudntruthgen.py
+
 blender --background --python render_meshGT.py -- 10 67 9 3
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 67 9 4
@@ -42577,6 +41969,614 @@ python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 69 15 17
 python groudntruthgen.py
 blender --background --python render_meshGT.py -- 10 69 15 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 0 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 1 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 2 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 3 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 4 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 5 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 6 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 7 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 8 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 9 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 10 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 11 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 12 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 13 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 14 18
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 0
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 1
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 2
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 3
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 4
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 5
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 6
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 7
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 8
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 9
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 10
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 11
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 12
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 13
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 14
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 15
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 16
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 17
+python groudntruthgen.py
+blender --background --python render_meshGT.py -- 10 70 15 18
 python groudntruthgen.py
 
 ​
