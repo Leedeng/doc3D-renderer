@@ -1,10 +1,14 @@
 ### Instructions to render your own data:
 - Step 1: Run script.sh
-```python
+```
 blender --background --python render_meshGT.py -- 10 0 0 0
+```
+Refer to render images
 python groudntruthgen.py
 ```
-
+python groudntruthgen.py
+```
+Refer to generate ground_truth
 ### Citation:
 If you use the dataset or this code, please consider citing our work-
 ```
