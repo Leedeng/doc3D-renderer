@@ -10,7 +10,7 @@ python groudntruthgen.py
 ```
 Refer to generate ground_truth
 
-- Step 2: Check the images
+- Step 2: Check the images<br/>
 Source images will saved in fold **source_img/**<br/>
 GroundTruth images will saved in fold **target_img/**<br/>
 
