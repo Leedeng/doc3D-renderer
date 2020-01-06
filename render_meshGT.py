@@ -10,7 +10,8 @@ Stony Brook University, New York
 December 2018
 '''
 
-
+import os
+import numpy as np
 import sys
 import csv
 import bpy
@@ -553,8 +554,8 @@ def render_img_gt(objpath, texpath,fname):
     fname = fname
     fn = render_pass_gt(mesh, objpath, texpath,fname)
 
-id1 = int(sys.argv[-3])
-id2 = int(sys.argv[-2])
+id2 = int(sys.argv[-3])
+id1 = int(sys.argv[-2])
 id3 = int(sys.argv[-1])
 rridx = int(sys.argv[-4])
 
@@ -628,5 +629,9 @@ with open(tex_list, 'r') as t, open(obj_list, 'r') as m:
         fn = fn.format("0","0","0","0")
         render_img(objpath, texpath,fn)
         render_img_gt(objpath, texpath_gt,fn)
+        
+
+        
+        
            
        
